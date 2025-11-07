@@ -16,6 +16,7 @@ print(loan_approval.head(10))
 print(loan_approval.dtypes)
 print(loan_approval.columns)
 print(loan_approval.isnull().sum())
+print(loan_approval.describe())
 
 #Seperating input columns and output columns
 X=loan_approval.drop(" loan_status",axis=1)
